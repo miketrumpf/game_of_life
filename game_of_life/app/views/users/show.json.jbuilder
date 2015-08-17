@@ -1,0 +1,1 @@
+json.extract! @user, :id, :screen_name, :password_digest, :social_score, :health_score, :wealth_score, :education_score, :romantic_score, :family_score, :spirit_score, :overall_score, :created_at, :updated_at

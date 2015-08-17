@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  aspect_type: MyString
+  aspect_start_score: 1
+  aspect_goal_score: 1
+  start_date: 2015-08-16
+  end_date: 2015-08-16
+  user_id: 1
+
+two:
+  aspect_type: MyString
+  aspect_start_score: 1
+  aspect_goal_score: 1
+  start_date: 2015-08-16
+  end_date: 2015-08-16
+  user_id: 1

@@ -1,0 +1,54 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Screen name:</strong>
+  <%= @user.screen_name %>
+</p>
+
+<p>
+  <strong>Password digest:</strong>
+  <%= @user.password_digest %>
+</p>
+
+<p>
+  <strong>Social score:</strong>
+  <%= @user.social_score %>
+</p>
+
+<p>
+  <strong>Health score:</strong>
+  <%= @user.health_score %>
+</p>
+
+<p>
+  <strong>Wealth score:</strong>
+  <%= @user.wealth_score %>
+</p>
+
+<p>
+  <strong>Education score:</strong>
+  <%= @user.education_score %>
+</p>
+
+<p>
+  <strong>Romantic score:</strong>
+  <%= @user.romantic_score %>
+</p>
+
+<p>
+  <strong>Family score:</strong>
+  <%= @user.family_score %>
+</p>
+
+<p>
+  <strong>Spirit score:</strong>
+  <%= @user.spirit_score %>
+</p>
+
+<p>
+  <strong>Overall score:</strong>
+  <%= @user.overall_score %>
+</p>
+
+<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Back', users_path %>
