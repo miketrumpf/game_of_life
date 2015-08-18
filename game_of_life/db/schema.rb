@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150817023338) do
+ActiveRecord::Schema.define(version: 20150818010756) do
 
   create_table "goals", force: :cascade do |t|
     t.string   "aspect_type"
@@ -37,8 +37,13 @@ ActiveRecord::Schema.define(version: 20150817023338) do
     t.integer  "family_score"
     t.integer  "spirit_score"
     t.integer  "overall_score"
-    t.datetime "created_at",      null: false
-    t.datetime "updated_at",      null: false
+    t.datetime "created_at",              null: false
+    t.datetime "updated_at",              null: false
+    t.string   "onboarding_answer_one"
+    t.string   "onboardding_answer_two"
+    t.string   "onboarding_answer_three"
+    t.string   "onboarding_answer_four"
+    t.string   "onboarding_answer_five"
   end
 
 end
